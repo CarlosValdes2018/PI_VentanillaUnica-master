@@ -15,12 +15,13 @@
             <tr>
                 <td style="width:50%;">Codigo Radicado</td>
                 <td style="width:50%;">
-                    <asp:TextBox ID="txtCodigo" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="txtCodigos" runat="server"></asp:TextBox>
                 </td>
             </tr>
             <tr>
                 <td colspan="2">
                     <asp:Button ID="btnConsultar" runat="server" Text="Consulta" OnClick="btnConsultar_Click" />
+                    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" />
                 </td>
             </tr>
             <tr>
